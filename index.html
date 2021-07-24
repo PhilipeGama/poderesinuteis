@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Herois</title>
+</head>
+<body>
+    <header>
+        <h1> Bem vindo aos super-poderes inuteis !!!</h1>
+    </header>
+    <main class="superpoderes">
+   <!--  <div class="body-power">   
+        <h2>poder-1</h2>
+        <img src="img/default.gif" alt="img-heroi" class="img-heroi">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo at distinctio deleniti ipsa, impedit minima, sint esse repudiandae et odio molestiae voluptatum id perferendis excepturi expedita laborum assumenda temporibus! Nam?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, veritatis tempore eligendi laborum ipsum vel aliquam quia. Accusamus, quas nesciunt eaque dolorum modi ducimus facere cum corrupti adipisci molestias eveniet.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, ipsa reprehenderit numquam laboriosam quibusdam sequi quidem nam voluptatum officia nesciunt corrupti ab in itaque veritatis iste sed neque? Inventore, consectetur!</p>
+    </div>   -->
+    </main>
+    <div class="form-heroi">
+        <form action="#" method="POST">
+            <h4>Titulo*</h4>
+            <input type="text" placeholder="Titulo do poder do herói">
+            <h4>Descrição*</h4>
+            <textarea ></textarea>
+            <h4>Imagem</h4>
+            <input type="file">
+            <input type="submit" value="Cadastrar">
+        </form>
+    </div>
+    <footer>
+
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+<style>
+ body, body *{
+     padding: 0px;
+     margin: 0;
+     border-spacing: 0;
+     box-sizing: border-box;
+ }   
+ header{
+    background-color: grey;
+    width: 100%;
+    height: 500px;
+ }
+ main{  
+    background-color: rgb(231, 98, 98);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+ }   
+ main .body-power{
+    background-color: rgb(155, 155, 155);
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+
+ }
+ main .body-power .img-heroi{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    max-height: 200px;
+}
+body .form-heroi{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    background-color: lightcoral;
+    width: 100%;
+    border: 1px solid black;
+}
+body .form-heroi form{
+    border: 1px solid black;
+    padding: 20px;
+    display: block;
+    width: 50%;
+}
+body .form-heroi form input, body .form-heroi form textarea{
+     width: 100%;
+     padding: 5px;
+}   
+ footer{
+    background-color: rgb(59, 59, 219);
+    width: 100%;
+    height: 500px;
+ }
+ @media screen and (max-width: 400px) {
+    body .form-heroi form{
+        width: 100%;
+    }
+ }
+ @media screen and (max-width: 600px) {
+    body .form-heroi form{
+        width: 100%;
+    }
+ }
+</style>
+</html>    
