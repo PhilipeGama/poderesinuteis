@@ -1,0 +1,78 @@
+body, body *{
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  padding: 0px;
+  margin: 0;
+  border-spacing: 0;
+  box-sizing: border-box;
+}   
+header{
+  background-color: rgb(95, 245, 237);
+  width: 100%;
+  height: 150px;
+}
+main{  
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}   
+main .body-power{
+  width: 50%;
+  border: 1px solid rgb(248, 224, 7);
+  padding: 10px;
+  border-radius: 10px;
+}
+main .body-power .img-heroi{
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  max-height: 200px;
+}
+body .form-hero{
+  display: none;
+  
+  justify-content: center;
+  height: 300px;
+  background-color: lightcoral;
+  width: 100%;
+  border: 1px solid black;
+}
+body .form-hero form{
+  border: 1px solid black;
+  padding: 20px;
+  display: block;
+  width: 50%;
+}
+body .form-hero form input, body .form-hero form textarea{
+    width: 100%;
+    padding: 5px;
+}   
+footer{
+  background-color: rgb(95, 245, 237);
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+  
+  background-color: rgb(228, 33, 33);
+}
+
+.author {
+  display: flex;
+  background-color: rgb(24, 70, 194);
+  justify-content: flex-end;
+  padding-left: 70%;
+}
+
+@media screen and (max-width: 400px) {
+  body .form-hero form{
+      width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  body .form-hero form{
+      width: 100%;
+  }
+}
