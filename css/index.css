@@ -1,4 +1,7 @@
-body, body *{
+h1 {
+  color: white;
+}
+body, body , *{
   font-family: 'Open Sans', sans-serif;
   width: 100%;
   padding: 0px;
@@ -7,20 +10,25 @@ body, body *{
   box-sizing: border-box;
 }   
 header{
-  background-color: rgb(95, 245, 237);
+  background-color: #0060AA;
   width: 100%;
-  height: 150px;
+  
 }
 main{  
+  padding: 20px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }   
+
+
 main .body-power{
-  width: 50%;
-  border: 1px solid rgb(248, 224, 7);
+  width: 40%;
   padding: 10px;
   border-radius: 10px;
+  background-color:  #ffed10;
 }
 main .body-power .img-heroi{
   display: block;
@@ -50,14 +58,12 @@ body .form-hero form input, body .form-hero form textarea{
 footer{
   background-color: rgb(95, 245, 237);
   width: 100%;
-  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end; 
-  background-color: rgb(228, 33, 33);
+  background-color: #e20025;
 }
 .author {
-  background-color: rgb(24, 70, 194);
   padding: 15px;
   text-align: center;
 }
