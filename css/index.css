@@ -12,7 +12,11 @@ body, body , *{
 header{
   background-color: #0060AA;
   width: 100%;
-  
+}
+header h1{
+  text-align: center;
+  padding: 10px;
+  text-shadow: 2px 2px 2px black;
 }
 main{  
   padding: 20px;
@@ -23,18 +27,25 @@ main{
   justify-content: center;
 }   
 
-
 main .body-power{
   width: 40%;
   padding: 10px;
   border-radius: 10px;
-  background-color:  #ffed10;
+   background-color: #044374; 
+   color: rgb(228, 228, 228);
+ /*   background-color:  #ffed10; */
+   font-weight: bold;
+}
+main .body-power h3{
+  text-transform: capitalize;
+}
+main .body-power p{
+  text-indent: 2em;
 }
 main .body-power .img-heroi{
   display: block;
   margin: 0 auto;
   padding: 10px;
-  width: 900px;
   height: 400px;
 }
 body .form-hero{
@@ -56,7 +67,6 @@ body .form-hero form input, body .form-hero form textarea{
     padding: 5px;
 }   
 footer{
-  background-color: rgb(95, 245, 237);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -64,6 +74,7 @@ footer{
   background-color: #e20025;
 }
 .author {
+  color: rgb(228, 228, 228);
   padding: 15px;
   text-align: center;
 }
@@ -77,4 +88,9 @@ footer{
   body .form-hero form{
       width: 100%;
   }
+  main .body-power .img-heroi{
+    height: 200px;
+  }
+  main .body-power{
+    width: 100%;
 }
