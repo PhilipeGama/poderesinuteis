@@ -4,12 +4,12 @@ var descricao = document.getElementById('descrição');
 const superpoderes = [
 
     {
-        titulo : "supercalvice0",
-        descricao: "Perde o cabelo muito rápido",
-        image: 'https://exame.com/wp-content/uploads/2018/10/calvo.jpg'
+        titulo : "lagrimas ácidas",
+        descricao: "Chora ácido mas não é imuni a ácido",
+        image: 'http://www.baconfrito.com/wp-content/uploads/2012/07/tobey.jpg'
     },
     {
-        titulo : "supercalvice2",
+        titulo : "supercalvice",
         descricao: "Perde o cabelo muito rápido",
         image: 'https://exame.com/wp-content/uploads/2018/10/calvo.jpg'
     },
